@@ -1,0 +1,16 @@
+site_name: Математика
+theme:
+  name: material
+  language: ru
+nav:
+  - Главная: index.md
+  - Школьная математика:
+    - Квадратные уравнения: school/quadratic.md
+  - Олимпиадная математика: olympiad/index.md
+  - Высшая математика: higher/index.md
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
